@@ -856,12 +856,12 @@ export default function IsometricCityMap({
         preserveAspectRatio="xMidYMid meet"
         style={{ minHeight: "600px", background: "linear-gradient(180deg, #F0FBF9 0%, #EAF5F3 100%)" }}
       >
-        <Road x1="100" y1="220" x2="900" y2="220" />
-        <Road x1="100" y1="370" x2="900" y2="370" />
-        <Road x1="100" y1="570" x2="900" y2="470" />
-        <Road x1="290" y1="80" x2="290" y2="650" />
-        <Road x1="500" y1="80" x2="500" y2="650" />
-        <Road x1="710" y1="80" x2="710" y2="650" />
+        <Road x1={100} y1={220} x2={900} y2={220} />
+        <Road x1={100} y1={370} x2={900} y2={370} />
+        <Road x1={100} y1={570} x2={900} y2={470} />
+        <Road x1={290} y1={80} x2={290} y2={650} />
+        <Road x1={500} y1={80} x2={500} y2={650} />
+        <Road x1={710} y1={80} x2={710} y2={650} />
 
         <Tree x={120} y={120} scale={4} />
         <Tree x={880} y={140} scale={4} />
